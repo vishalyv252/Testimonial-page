@@ -8,7 +8,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 # Screenshots
 
+1). Desktop Design:
 
+![Desktop-Design](https://github.com/vishalyv252/Testimonial-page/assets/105093020/f07adaa8-207a-4862-82f1-faa520ff48c3)
+
+2). Mobile Design:
+
+![Mobile_Design](https://github.com/vishalyv252/Testimonial-page/assets/105093020/3de8d73d-c8f9-4342-9bc8-70a2363aab71)
 
 # Further help
 
