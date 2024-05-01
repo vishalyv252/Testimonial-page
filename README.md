@@ -1,27 +1,23 @@
 # ResponsiveTestimonialPage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+This project was generated with Angular CLI as the version of 17.2.1. I styled the layout using Tailwind CSS. I had written some parts of code in Typescript based on Loops and Objects for displaying the data in HTML. So please refer the code properly. I attached screenshots in this repository.
 
-## Development server
+# Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Screenshots
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1). Desktop Design:
 
-## Build
+![Desktop-Design](https://github.com/vishalyv252/Testimonial-page/assets/105093020/f07adaa8-207a-4862-82f1-faa520ff48c3)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2). Mobile Design:
 
-## Running unit tests
+In Mobile Design, I had captured this much. But scroll it, it displays the entire data.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Mobile_Design](https://github.com/vishalyv252/Testimonial-page/assets/105093020/3de8d73d-c8f9-4342-9bc8-70a2363aab71)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
+# Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
