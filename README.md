@@ -14,6 +14,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 2). Mobile Design:
 
+In Mobile Design, I had captured this much. But scroll it, it displays the entire data.
+
 ![Mobile_Design](https://github.com/vishalyv252/Testimonial-page/assets/105093020/3de8d73d-c8f9-4342-9bc8-70a2363aab71)
 
 # Further help
