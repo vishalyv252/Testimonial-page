@@ -4,7 +4,7 @@
   <div class="block Large_Tablet_Devices_Size_View:hidden Small_Tablet_Devices_Size_View:hidden Large_Mobile_Devices_Size_View:hidden Medium_Mobile_Devices_Size_View:hidden Small_Mobile_Devices_Size_View:hidden">
     <div class="flex justify-center items-center h-screen w-full overflow-x-hidden overflow-y-auto bg-[#FAFAF9] font-Sora">
       <div class="flex justify-center items-center h-auto w-auto p-20 m-auto">
-        <div class="flex justify-center items-center h-auto w-full p-20">
+        <div class="flex justify-center items-center h-auto w-auto p-20">
           <div class="flex flex-col justify-center items-center h-auto w-auto mr-5">
             <div class="mr-auto">
               <div class="my-4">
@@ -16,7 +16,7 @@
                 <h1 class="text-4xl font-bold">{{title}}</h1>
               </div>
               <div class="my-4">
-                <div class="max-w-[550px]">
+                <div class="max-w-[550px]"><!---->
                   <p class="text-xl text-left font-medium text-[#52525A] leading-relaxed">Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.</p>
                 </div>
               </div>
@@ -25,13 +25,13 @@
                 <ul *ngFor="let tasks of lists">
                   <li class="flex justify-start items-center">
                     <img src="assets/images/Done_ring_round_fill.svg" alt="" class="mr-2 py-1" />
-                    <p class="py-1 text-sm font-medium text-[#52525A]">{{tasks}}</p>
+                    <p class="py-1 text-sm font-medium text-[#52525A] max-w-max">{{tasks}}</p>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="flex flex-col justify-center items-center h-auto w-[600px] ml-5">
+          <div class="flex flex-col justify-center items-center h-auto w-[500px] ml-5">
             <div class="my-4 ml-auto">
               <!-- Include Google component -->
               <app-google></app-google>
