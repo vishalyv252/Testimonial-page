@@ -1,0 +1,111 @@
+<div>
+
+  <!-- This device can be implemented only in Laptop and Desktop Devices. -->
+  <div class="block Large_Mobile_Devices_Size_View:hidden Medium_Mobile_Devices_Size_View:hidden Small_Mobile_Devices_Size_View:hidden">
+    <div class="flex flex-col justify-center items-center h-auto w-[360px] bg-[#FFFFFF] py-8 px-10 rounded-xl drop-shadow-2xl">
+      <div class="flex justify-center items-center mr-auto">
+        <div>
+          <img src="assets/images/google-testimonial.png" alt="" class="h-auto w-[85px]" />
+        </div>
+        <div class="flex justify-center items-center ml-4">
+          <!-- Loop through star ratings -->
+          <div *ngFor="let star of stars; let star_ratings = index" class="ml-1">
+            <!-- Display filled star icon if index is less than 4, otherwise display grayed-out star icon -->
+            <img *ngIf="star_ratings < 4" src="assets/images/Star_fill.svg" alt="" />
+            <img *ngIf="star_ratings === 4" src="assets/images/Star_fill_gray.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="text-base mr-auto">
+        <div class="mt-3 mb-2">
+          <h1 class="font-bold text-[#18181B]">{{full_name}}</h1>
+        </div>
+        <div class="w-64">
+          <p class="font-normal text-[#52525A]">{{comments}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- This device can be implemented only in Large Mobile Devices. -->
+  <div class="hidden Large_Mobile_Devices_Size_View:block Medium_Mobile_Devices_Size_View:hidden Small_Mobile_Devices_Size_View:hidden">
+    <div class="flex flex-col justify-center items-center h-auto w-80 bg-[#FFFFFF] py-7 px-9 rounded-xl drop-shadow-2xl">
+      <div class="flex justify-center items-center mr-auto">
+        <div>
+          <img src="assets/images/google-testimonial.png" alt="" class="h-auto w-[70px]" />
+        </div>
+        <div class="flex justify-center items-center ml-5">
+          <!-- Loop through star ratings -->
+          <div *ngFor="let star of stars; let star_ratings = index" class="ml-1">
+            <!-- Display filled star icon if index is less than 4, otherwise display grayed-out star icon -->
+            <img *ngIf="star_ratings < 4" src="assets/images/Star_fill.svg" alt="" class="h-5 w-5" />
+            <img *ngIf="star_ratings === 4" src="assets/images/Star_fill_gray.svg" alt="" class="h-5 w-5" />
+          </div>
+        </div>
+      </div>
+      <div class="text-sm mr-auto">
+        <div class="mt-3 mb-2">
+          <h1 class="font-bold text-[#18181B]">{{full_name}}</h1>
+        </div>
+        <div class="w-64">
+          <p class="font-normal text-[#52525A]">{{comments}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- This device can be implemented only in Medium Mobile Devices. -->
+  <div class="hidden Large_Mobile_Devices_Size_View:hidden Medium_Mobile_Devices_Size_View:block Small_Mobile_Devices_Size_View:hidden">
+    <div class="flex flex-col justify-center items-center h-auto w-72 bg-[#FFFFFF] py-6 px-8 rounded-xl drop-shadow-2xl">
+      <div class="flex justify-center items-center mr-auto">
+        <div>
+          <img src="assets/images/google-testimonial.png" alt="" class="h-auto w-[60px]" />
+        </div>
+        <div class="flex justify-center items-center ml-4">
+          <!-- Loop through star ratings -->
+          <div *ngFor="let star of stars; let star_ratings = index" class="ml-1">
+            <!-- Display filled star icon if index is less than 4, otherwise display grayed-out star icon -->
+            <img *ngIf="star_ratings < 4" src="assets/images/Star_fill.svg" alt="" class="h-[17px] w-[17px]" />
+            <img *ngIf="star_ratings === 4" src="assets/images/Star_fill_gray.svg" alt="" class="h-[17px] w-[17px]" />
+          </div>
+        </div>
+      </div>
+      <div class="text-xs mr-auto">
+        <div class="mt-3 mb-2">
+          <h1 class="font-bold text-[#18181B]">{{full_name}}</h1>
+        </div>
+        <div class="w-52">
+          <p class="font-normal text-[#52525A] leading-relaxed">{{comments}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- This device can be implemented only in Small Mobile Devices. -->
+  <div class="hidden Large_Mobile_Devices_Size_View:hidden Medium_Mobile_Devices_Size_View:hidden Small_Mobile_Devices_Size_View:block">
+    <div class="flex flex-col justify-center items-center h-auto w-60 bg-[#FFFFFF] py-5 px-7 rounded-xl drop-shadow-2xl">
+      <div class="flex justify-center items-center mr-auto">
+        <div>
+          <img src="assets/images/google-testimonial.png" alt="" class="h-auto w-[50px]" />
+        </div>
+        <div class="flex justify-center items-center ml-3">
+          <!-- Loop through star ratings -->
+          <div *ngFor="let star of stars; let star_ratings = index" class="ml-[2px]">
+            <!-- Display filled star icon if index is less than 4, otherwise display grayed-out star icon -->
+            <img *ngIf="star_ratings < 4" src="assets/images/Star_fill.svg" alt="" class="h-4 w-4" />
+            <img *ngIf="star_ratings === 4" src="assets/images/Star_fill_gray.svg" alt="" class="h-4 w-4" />
+          </div>
+        </div>
+      </div>
+      <div class="text-[10px] mr-auto">
+        <div class="mt-3 mb-2">
+          <h1 class="font-bold text-[#18181B]">{{full_name}}</h1>
+        </div>
+        <div class="w-44">
+          <p class="font-normal text-[#52525A] leading-relaxed">{{comments}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
